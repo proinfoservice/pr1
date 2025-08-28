@@ -1,0 +1,46 @@
+<svg width="88" height="92" viewBox="0 0 88 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.5 35.3442H69.5C70.5 35.3442 76 33.9202 76 27.344C76 20.5 70.5 18.8437 64 19.8442C66.5 16.8437 64.5 7.84379 59.5 4.84317C51.1757 -0.152427 41 5.84372 40 12.8435C30.5 5.34372 21.2857 14.5 25 21C23 17.5 12 18.5 12 25.8442C12 33.1884 15.5 35.3442 19.5 35.3442Z" stroke="#263148" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<mask id="path-2-inside-1_1520_541" fill="white">
+<rect x="22" y="29" width="44" height="12" rx="1"/>
+</mask>
+<rect x="22" y="29" width="44" height="12" rx="1" fill="white" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-2-inside-1_1520_541)"/>
+<mask id="path-3-inside-2_1520_541" fill="white">
+<rect x="22" y="44" width="44" height="12" rx="1"/>
+</mask>
+<rect x="22" y="44" width="44" height="12" rx="1" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-3-inside-2_1520_541)"/>
+<mask id="path-4-inside-3_1520_541" fill="white">
+<rect x="22" y="59" width="44" height="12" rx="1"/>
+</mask>
+<rect x="22" y="59" width="44" height="12" rx="1" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-4-inside-3_1520_541)"/>
+<mask id="path-5-inside-4_1520_541" fill="white">
+<rect x="76" y="44" width="12" height="12" rx="1"/>
+</mask>
+<rect x="76" y="44" width="12" height="12" rx="1" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-5-inside-4_1520_541)"/>
+<mask id="path-6-inside-5_1520_541" fill="white">
+<rect width="12" height="12" rx="1" transform="matrix(-1 0 0 1 12 44)"/>
+</mask>
+<rect width="12" height="12" rx="1" transform="matrix(-1 0 0 1 12 44)" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-6-inside-5_1520_541)"/>
+<mask id="path-7-inside-6_1520_541" fill="white">
+<rect x="76" y="59" width="12" height="12" rx="1"/>
+</mask>
+<rect x="76" y="59" width="12" height="12" rx="1" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-7-inside-6_1520_541)"/>
+<mask id="path-8-inside-7_1520_541" fill="white">
+<rect width="12" height="12" rx="1" transform="matrix(-1 0 0 1 12 59)"/>
+</mask>
+<rect width="12" height="12" rx="1" transform="matrix(-1 0 0 1 12 59)" stroke="#263148" stroke-width="4" stroke-linejoin="round" mask="url(#path-8-inside-7_1520_541)"/>
+<path d="M58 39.5V44.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M30 39.5V44.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M58 55V60" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M82 55V60" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M6 55V60" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M30 55V60" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M58 70.5V75.0858C58 75.351 58.1054 75.6054 58.2929 75.7929L66.5 84M30 70.5V75.0858C30 75.351 29.8946 75.6054 29.7071 75.7929L21.5 84" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M44 70.5V84.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="44" cy="88" r="3" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="69" cy="86" r="3" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="19" cy="86" r="3" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M65 50H76.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M23 50H11.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M65 65H76.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+<path d="M23 65H11.5" stroke="#263148" stroke-width="2" stroke-linejoin="round"/>
+</svg>
