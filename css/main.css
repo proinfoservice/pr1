@@ -449,7 +449,7 @@ body.home .main-hero {
 .main-hero-overlay {
   text-align: center;
   font-size: 3rem;
-  max-width: 1500px; }
+  max-width: 1050px; }
 
 body.home > footer {
   position: fixed;
@@ -470,7 +470,7 @@ body.home.navOpened .logo-dark {
     padding: 15px 0 0.5rem 0; }
 
   .main-hero-overlay {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
 
   .projects-title {
     margin-top: 0px;
