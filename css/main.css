@@ -180,9 +180,17 @@ hr {
   .modal-dialog {
     max-width: 630px; } }
 .page-footer {
-  padding: 60px 0 56px;
+  padding: 60px 0 30px;
   font-size: 16px;
   line-height: 19px; }
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+footer {
+  margin-top: auto; }
 
 .nav-close {
   margin: 100px 70px; }
@@ -440,19 +448,13 @@ body.home .main-hero {
 
 .main-hero-overlay {
   text-align: center;
-  color: white;
   font-size: 3rem;
   max-width: 1500px; }
 
 body.home > footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  color: white;
-  padding-bottom: 30px; }
-
-body.home .navbar-collapse:not(.show) .nav-link {
-  color: white; }
+  width: 100%; }
 
 body.home .logo-dark {
   display: none; }
