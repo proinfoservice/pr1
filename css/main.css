@@ -451,6 +451,9 @@ body.home .main-hero {
   font-size: 3rem;
   max-width: 1050px; }
 
+.main-hero-overlay-link {
+  color: inherit; }
+
 body.home > footer {
   position: fixed;
   bottom: 0;
@@ -602,3 +605,9 @@ body.home.navOpened .logo-dark {
 
 .activity-margin {
   margin-bottom: 40px; }
+
+.project-link {
+  color: inherit; }
+
+.project-link:hover {
+  color: #2065AB; }
