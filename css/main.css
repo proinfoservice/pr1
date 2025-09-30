@@ -14,14 +14,10 @@ body {
   overflow-x: hidden;
   position: relative; }
 
-h1 {
+h1, h2, .h2 {
   font-size: 32px;
   line-height: 110%;
   margin-bottom: 20px; }
-
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 30px; }
 
 h3 {
   font-size: 1.5rem;
@@ -356,13 +352,17 @@ footer {
 .nextArrow {
   right: 5px; }
 
-.page-padding h2 {
-  font-size: 22px;
-  font-weight: 400; }
-
 .page-padding h3 {
   font-size: 1rem;
   font-weight: 400; }
+
+.activity-blocks {
+  color: #2065AB;
+  background-color: #EBF2F8;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  padding-top: 1.83rem;
+  padding-bottom: 1.67rem; }
 
 @media (min-width: 768px) {
   .navbar + section:not(#company) {
@@ -406,9 +406,6 @@ h6 {
   margin-top: 20px; }
 
 @media (max-width: 1199px) {
-  h1 {
-    font-size: 1.5rem; }
-
   .navbar {
     padding: 20px 0 0.5rem 0; }
 
@@ -416,7 +413,10 @@ h6 {
     margin-top: 108px; }
 
   #company {
-    background-size: 100%; } }
+    background-size: 100%; }
+
+  .activity-blocks {
+    font-size: 1rem; } }
 .page-padding {
   padding: 50px; }
 
@@ -479,7 +479,7 @@ body.home.navOpened .logo-dark {
     margin-top: 0px;
     margin-bottom: 50px; }
 
-  h1 {
+  h1, h2, .h2 {
     font-size: 24px; }
 
   .modal .modal-dialog {
@@ -528,7 +528,7 @@ body.home.navOpened .logo-dark {
   margin-top: 30px; }
 
 .activity-offer {
-  margin-bottom: 124px; }
+  margin-bottom: 60px; }
 
 @media (max-width: 767px) {
   body.home {
@@ -536,9 +536,6 @@ body.home.navOpened .logo-dark {
 
   body {
     padding-top: 100px; }
-
-  .page-padding h2 {
-    font-size: 16px; }
 
   .navOpened .navbar {
     background-color: #fff; }
@@ -549,7 +546,7 @@ body.home.navOpened .logo-dark {
     margin-left: 60px !important; }
 
   .activity-offer {
-    margin-bottom: 60px; }
+    margin-bottom: 40px; }
 
   .navbar {
     padding-top: 20px; }
@@ -594,6 +591,9 @@ body.home.navOpened .logo-dark {
 
 .projects-subtitle {
   font-size: 16px; }
+
+.project-subtitle {
+  font-size: 1.222rem; }
 
 .projects-tags-container {
   display: flex;
