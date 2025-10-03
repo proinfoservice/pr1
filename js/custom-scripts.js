@@ -62,8 +62,36 @@
     //     }
     //   ]
     // });
+    $('.projects-slide').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerMode: true,
+      centerPadding: '0px',
+      initialSlide: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: true,
+      nextArrow: '<button type="button" class="slick-next"><img src="img/icons/next-arrow.svg" alt="next"></button>',
+      prevArrow: '<button type="button" class="slick-prev"><img src="img/icons/prev-arrow.svg" alt="prev"></button>',
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+            centerPadding: '0px',
+            initialSlide: 0,
+          }
+        }
+      ]
+    });
 
-    $(".nav").find(".active").removeClass("active");
-    $('a[href="' + location.pathname + '"]').addClass("active");
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+      $($(e.target).attr('href')).find('.projects-slide').slick('setPosition');
+    });
+    $(".navbar-nav").find(".active").removeClass("active");
+    $('.navbar-nav a[href="' + location.pathname + '"]').addClass("active");
   });
 })();

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>ПроИнфоСервис - Компания</title>
-  <meta name="description" content="Компания «ПроИнфоСервис» — разработчик программного обеспечения. Ключевое направление деятельности — интеграция информационных систем. Мы помогаем нашим клие...">
+  <meta name="description" content="">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 
   <link rel="stylesheet" href="/pr1/css/main.css">
+  <link rel="stylesheet" href="/pr1/css/tabs.css">
   <link rel="canonical" href="/pr1/company.html">
   <link rel="alternate" type="application/rss+xml" title="proinfoservice" href="/pr1/feed.xml">
   <!-- Yandex.Metrika counter -->
@@ -103,46 +104,276 @@
 </nav><!--navbar end-->
 
 
-    <section id="company-page">
-  <div class="container-fluid">
-    <div class="row pb-1">
-      <div class="col-xl-8 col-lg-8">
-        <h1 data-aos="fade-up">Компания «ПроИнфоСервис» — разработчик программного обеспечения. Ключевое направление деятельности — интеграция информационных систем. </h1>
-        <p>Мы помогаем нашим клиентам решать задачи их бизнеса с использованием современных технологий разработки.</p>
+    <section class="page-padding">
+
+  <div class="row pages-title pl-sm-3">
+    <div class="col-sm-6 col-lg-6 pr-5 pl-sm-0">
+      <h1>ИТ-компания «ПроИнфоСервис» — разработчик интеграционных решений</h1>
+    </div>
+    <div class="col-lg-5 col-sm-6 left-border pl-sm-3">
+      <p class="company-numbers">>16</p>
+      <p>лет мы создаем интеграционные решения для различных предприятий и организаций</p>
+    </div>
+  </div>
+  <p class="pb-lg-3 h2">За это время:</p>
+  <div class="row pl-sm-3">
+    <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+      <p class="company-numbers pb-lg-3 pb-2">150+</p>
+      <p>интегрировано информационных систем</p>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+      <p class="company-numbers pb-lg-3 pb-2">200+</p>
+      <p>реализованных сервисов</p>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+      <p class="company-numbers pb-lg-3 pb-2">400+</p>
+      <p>межведомственных запросов</p>
+    </div>
+    <div class="col-md-3 col-sm-6 mb-3 left-border pl-sm-3">
+      <p class="company-numbers pb-lg-3 pb-2">200+</p>
+      <p>услуг переведено в электронный вид </p>
+    </div>
+  </div>
+  <div class="enterprise-solutions row justify-content-center">
+    <div class="col-xl-8 col-sm-10 col-12 py-lg-5 py-4 px-lg-4 px-3 text-center laurel-box">
+      <img src="img/icons/laurel-left.svg" alt="левая ветка" class="d-sm-block d-none">
+      <span class="laurel-text">Решения ПроИнфоСервис внедрены на предприятиях, работающих в сфере энергетики,
+        логистики, производства, а также
+        в органах государственной власти</span>
+      <img src="img/icons/laurel-right.svg" alt="правая ветка" class="d-sm-block d-none">
+    </div>
+  </div>
+  <div class="row pages-title align-items-center">
+    <div class="col-lg-8 col-md-6 col-12 py-0 px-3">
+      <h2 class="mb-0">Мы провели интервью с представителями ключевых заказчиков и выяснили за что нас ценят клиенты
+      </h2>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12 py-0 text-md-right">
+      <img src="img/icons/person.svg" class="px-2">
+      <img src="img/icons/fingers.svg" class="px-2">
+      <img src="img/icons/text.svg" class="px-2">
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <ul class="nav custom-tabs" role="tablist">
+      
+      <li class="nav-item p-1">
+        <a class="nav-link active" id="flex-tab" data-toggle="tab"
+          href="#flex" role="tab" aria-controls="flex"
+          aria-selected="true">
+          Гибкость и адаптивность
+        </a>
+      </li>
+      
+      <li class="nav-item p-1">
+        <a class="nav-link " id="in_touch-tab" data-toggle="tab"
+          href="#in_touch" role="tab" aria-controls="in_touch"
+          aria-selected="false">
+          Мы всегда на связи
+        </a>
+      </li>
+      
+      <li class="nav-item p-1">
+        <a class="nav-link " id="until_end-tab" data-toggle="tab"
+          href="#until_end" role="tab" aria-controls="until_end"
+          aria-selected="false">
+          Работаем до победного
+        </a>
+      </li>
+      
+      <li class="nav-item p-1">
+        <a class="nav-link " id="professionalism-tab" data-toggle="tab"
+          href="#professionalism" role="tab" aria-controls="professionalism"
+          aria-selected="false">
+          Доброжелательное отношение и профессионализм
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+  <div class="tab-content mb-5">
+    
+    <div class="tab-pane show active" id="flex" role="tabpanel">
+      <div class="row justify-content-center align-items-center">
+        <h3 class="text-center col-sm-8 col-12 pb-md-3 pt-md-5 pb-2 pt-4 mb-0">Внимательно слушаем пожелания клиентов и готовы идти навстречу. Ищем оптимальные варианты решения и делаем всё возможное, чтобы сотрудничать с нами было удобно</h3>
+
+        <div class="projects-slide-wrapper col-10">
+          <div class="projects-slide">
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Прислушиваются к актуальным потребностям заказчика, не вдаваясь сразу в юриспруденцию"</p>
+              <span class="review-count">1 / 5</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Нравится готовность к правкам, готовность искать варианты решения"</p>
+              <span class="review-count">2 / 5</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"С вами всегда можно договориться"</p>
+              <span class="review-count">3 / 5</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Не занимаетесь излишним крючкотворством, делая все до буквы так, как прописано в документации"</p>
+              <span class="review-count">4 / 5</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Компания гибко работает с требованиями заказчика. Все пожелания, которые возможно, исполнить, делают"</p>
+              <span class="review-count">5 / 5</span>
+            </div>
+            
+          </div>
+          <div class="custom-indicators"></div>
+        </div>
       </div>
     </div>
-    <div class="row pt-4 color-blocks">
-      <div class="bg-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-up"></div>
-        <h1 data-aos="fade-up-left">Наша задача</h1>
-        <p>Рационально использовать весь потенциал имеющихся данных и информационных систем для достижения целей и ключевых показателей заказчика.</p>
+    
+    <div class="tab-pane " id="in_touch" role="tabpanel">
+      <div class="row justify-content-center align-items-center">
+        <h3 class="text-center col-sm-8 col-12 pb-md-3 pt-md-5 pb-2 pt-4 mb-0">У наших клиентов есть личные контакты сотрудников техподдержки и руководителей проектов. Быстро отвечаем на срочные вопросы, всегда на связи, готовы помочь и подсказать.</h3>
+
+        <div class="projects-slide-wrapper col-10">
+          <div class="projects-slide">
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Можно положиться, если срочный вопрос, нам всегда ответят"</p>
+              <span class="review-count">1 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Вы всегда на связи, оперативно отвечаете"</p>
+              <span class="review-count">2 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Терпеливые, всегда готовы выслушать"</p>
+              <span class="review-count">3 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Проводите очные встречи"</p>
+              <span class="review-count">4 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Оперативно реагируют, всегда можно прийти к консенсусу"</p>
+              <span class="review-count">5 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Ценим оперативность, качество помощи и консультаций"</p>
+              <span class="review-count">6 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Очные приёмки и наглядные презентации с результатами работы"</p>
+              <span class="review-count">7 / 8</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Всегда есть личный контакт"</p>
+              <span class="review-count">8 / 8</span>
+            </div>
+            
+          </div>
+          <div class="custom-indicators"></div>
+        </div>
       </div>
-      <div class="bg-light-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-up">Решения</h1>
-        <p>Мы создаем программные решения на основе лучших практик разработки, учитывая при этом индивидуальные особенности бизнеса заказчика.</p>
+    </div>
+    
+    <div class="tab-pane " id="until_end" role="tabpanel">
+      <div class="row justify-content-center align-items-center">
+        <h3 class="text-center col-sm-8 col-12 pb-md-3 pt-md-5 pb-2 pt-4 mb-0">Проблемы клиента решаем до полного их устранения.</h3>
+
+        <div class="projects-slide-wrapper col-10">
+          <div class="projects-slide">
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Проблему решают до последнего"</p>
+              <span class="review-count">1 / 4</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Довольны, все поставленные задачи выполнены"</p>
+              <span class="review-count">2 / 4</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Хорошая отдача по предоставлению документации"</p>
+              <span class="review-count">3 / 4</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Отвечают на вопросы и помогают, даже если срок контракта уже закончился"</p>
+              <span class="review-count">4 / 4</span>
+            </div>
+            
+          </div>
+          <div class="custom-indicators"></div>
+        </div>
       </div>
-      <div class="bg-dark-blue col-xl-4 col-lg-4 col-md-6">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-up-right">Опыт</h1>
-        <p>Мы работаем на рынке с 2009 года, постоянно накапливая опыт и совершенствуя подходы и методы создания информационных систем.</p>
+    </div>
+    
+    <div class="tab-pane " id="professionalism" role="tabpanel">
+      <div class="row justify-content-center align-items-center">
+        <h3 class="text-center col-sm-8 col-12 pb-md-3 pt-md-5 pb-2 pt-4 mb-0">Для нас важны долгосрочные и доверительные отношения с клиентами.</h3>
+
+        <div class="projects-slide-wrapper col-10">
+          <div class="projects-slide">
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Терпеливо и доступно объясняете сложные технические моменты"</p>
+              <span class="review-count">1 / 6</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Ваша команда глубоко вовлекается в проект"</p>
+              <span class="review-count">2 / 6</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Нравится отзывчивость и настрой коллег на поиск оптимального решения"</p>
+              <span class="review-count">3 / 6</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Замечательные рабочие отношения"</p>
+              <span class="review-count">4 / 6</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Долгосрочное, доверительное отношение"</p>
+              <span class="review-count">5 / 6</span>
+            </div>
+            
+            <div class="review-card text-center mb-3">
+              <p class="mb-3">"Ликбез по законодательству. Разъясняют, как изменения в законодательстве повлияют на бизнес-процесс и что необходимо изменить в первую очередь"</p>
+              <span class="review-count">6 / 6</span>
+            </div>
+            
+          </div>
+          <div class="custom-indicators"></div>
+        </div>
       </div>
-      <div class="bg-dark-blue col-xl-4 col-lg-4 col-md-6 order-lg-0 order-md-2 order-1">
-        <div data-aos="fade-in"></div>
-        <h1 data-aos="fade-down">Команда</h1>
-        <p>Ключевой ресурс компании – сплоченная и профессиональная команда, состоящая из талантливых разработчиков, вдумчивых аналитиков, опытных руководителей проектов и заботливых специалистов технической поддержки.</p>
-      </div>
-      <div class="bg-blue col-xl-4 col-lg-4 col-md-6 order-0">
-        <div data-aos="fade-in"></div>
-        <h1>Залог успеха</h1>
-        <p>Залог стабильности и успеха компании – постоянное развитие и адаптация к меняющимся потребностям клиентов и вызовам ИТ-рынка.</p>
-      </div>
-      <div class="col-xl-4 col-lg-4 col-md-6 order-1">
-        <div data-aos="fade-in"></div>
-        <h1>Давайте знакомиться!</h1>
-        <p>Напишите нам, давайте познакомимся поближе.</p>
-        <a class="btn btn-primary" href="mailto:info@proinfoservice.ru">Написать</a>
-      </div>
+    </div>
+    
+  </div>
+  <div class="mb-4 pt-4">
+    <h2>Мы гордимся высоким уровнем доверия наших клиентов!</h2>
+  </div>
+  <div class="row pl-3 pr-3 pr-md-0">
+    <div class="col-md-3 col-12 gratitude-card px-3">
+      <a href="documents/gratitude-letters/gratitude-perm-administration.pdf">
+        <p class="mt-4 mb-5">Благодарственное письмо от Администрации г.Перми </p>
+        <div class="d-flex justify-content-between mb-3 pt-4">
+          <span>.pdf</span>
+          <span>↗</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>

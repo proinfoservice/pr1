@@ -1,4 +1,3 @@
-/* Colors */
 * {
   outline: 0 !important; }
 
@@ -468,6 +467,28 @@ body.home.navOpened .logo-light {
 body.home.navOpened .logo-dark {
   display: block; }
 
+.company-numbers {
+  font-size: 50px;
+  margin: 0px;
+  line-height: 55px;
+  font-weight: 500; }
+
+.laurel-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; }
+
+.laurel-text {
+  font-size: 1.556rem;
+  color: #2065AB;
+  line-height: normal; }
+
+.enterprise-solutions {
+  background-color: #EBF2F8;
+  margin: 100px 0;
+  min-height: 288px; }
+
 @media (max-width: 991px) {
   .navbar {
     padding: 15px 0 0.5rem 0; }
@@ -522,8 +543,21 @@ body.home.navOpened .logo-dark {
     margin-bottom: 40px; }
 
   .img-left-border {
-    border-left: none; } }
-.activity-title {
+    border-left: none; }
+
+  .laurel-text {
+    font-size: 1rem; }
+
+  .laurel-box {
+    gap: 0.5rem; }
+
+  .company-numbers {
+    font-size: 40px; }
+
+  .enterprise-solutions {
+    margin: 30px 0;
+    min-height: auto; } }
+.pages-title {
   margin-bottom: 80px;
   margin-top: 30px; }
 
@@ -568,7 +602,7 @@ body.home.navOpened .logo-dark {
   .projects .modal-body img {
     max-width: 100%; }
 
-  .activity-title {
+  .pages-title {
     margin-bottom: 50px;
     margin-top: 0px; } }
 @media (max-width: 575px) {
@@ -604,10 +638,61 @@ body.home.navOpened .logo-dark {
   color: #2065AB; }
 
 .activity-margin {
-  margin-bottom: 40px; }
+  margin-bottom: 2.222rem; }
 
 .project-link {
   color: inherit; }
 
 .project-link:hover {
   color: #2065AB; }
+
+.review-card {
+  background-color: #EBF2F8;
+  color: #2065AB;
+  padding: 1.667rem 1.111rem;
+  margin: 0.556rem;
+  justify-content: center; }
+
+.review-count {
+  position: absolute;
+  bottom: 1.667rem;
+  font-size: 0.889rem;
+  color: #2065AB; }
+
+.gratitude-card {
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 1rem; }
+
+.gratitude-card a {
+  color: inherit; }
+
+.slick-next img, .slick-prev img {
+  transform: translateY(-100%); }
+
+.projects-slide .slick-track {
+  display: flex; }
+
+.projects-slide .slick-slide {
+  display: flex;
+  height: auto; }
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 1.111rem; }
+  .slick-dots li {
+    width: auto; }
+    .slick-dots li button {
+      height: 4px;
+      width: 1.667rem;
+      background-color: #EBF2F8;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      padding: 0; }
+      .slick-dots li button::before {
+        content: ''; }
+    .slick-dots li.slick-active button {
+      width: 3.333rem;
+      background-color: #6A96C2; }

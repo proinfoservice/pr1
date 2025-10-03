@@ -1,0 +1,10 @@
+/* Colors */
+.custom-tabs .nav-link {
+  background-color: #F6FBFF;
+  border: 1px solid #C6E1FF;
+  color: #2065AB; }
+
+.custom-tabs .nav-link.active {
+  background-color: #2065AB;
+  border-color: #175A9E;
+  color: #FFFFFF; }
