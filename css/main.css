@@ -343,6 +343,9 @@ footer {
   padding-top: 1.83rem;
   padding-bottom: 1.67rem; }
 
+.reviews-subtitle {
+  min-height: 5.5em; }
+
 @media (min-width: 768px) {
   .navbar + section:not(#company) {
     padding-top: 150px; } }
@@ -527,7 +530,10 @@ body.home.navOpened .logo-dark {
 
   .enterprise-solutions {
     margin: 30px 0;
-    min-height: auto; } }
+    min-height: auto; }
+
+  .reviews-subtitle {
+    min-height: 8em; } }
 .activity-offer {
   margin-bottom: 60px; }
 
