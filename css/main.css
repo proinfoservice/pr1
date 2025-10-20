@@ -33,11 +33,8 @@ a {
     color: #1F2147;
     text-decoration: none; }
 
-p {
-  margin-bottom: 1.6em;
-  line-height: 22px; }
-  p:last-child {
-    margin-bottom: 0; }
+p:last-child {
+  margin-bottom: 0; }
 
 hr {
   margin: 0 50px; }
@@ -47,14 +44,12 @@ hr {
 /* Navbar */
 .navbar {
   width: 100%;
-  padding: 43px 0 .5rem 0;
+  padding: 43px 50px 0.5rem;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease; }
   .navbar.sticky {
     background: #fff;
     padding-top: 0.5rem; }
-  .navbar .container-fluid {
-    padding: 0 50px; }
   .navbar .nav-item {
     white-space: nowrap; }
 
@@ -153,7 +148,7 @@ hr {
     padding-bottom: 10px; }
 
 .main-build {
-  background-image: url("/img/home1.png");
+  background-image: url("../img/home1.png");
   min-height: 300px;
   background-position: center top;
   background-size: cover;
@@ -244,18 +239,8 @@ footer {
 #vacancy hr {
   margin: 50px 35px 20px; }
 
-.row .col-xl-4,
-.row .col-xl-8,
-.row .col-xl-9,
-.row .col-lg-4,
-.col-12 {
-  padding: 20px 50px; }
-
 .map.row > div:first-child {
   padding-right: 20px;
-  padding-top: 10px; }
-.map.row > div:last-child {
-  padding-left: 40px;
   padding-top: 10px; }
 
 .projects > div > a > img {
@@ -351,10 +336,6 @@ footer {
 .nextArrow {
   right: 5px; }
 
-.page-padding h3 {
-  font-size: 1rem;
-  font-weight: 400; }
-
 .activity-blocks {
   color: #2065AB;
   background-color: #EBF2F8;
@@ -365,7 +346,10 @@ footer {
 
 @media (min-width: 768px) {
   .navbar + section:not(#company) {
-    padding-top: 130px; } }
+    padding-top: 150px; }
+
+  *:not(#company) > .container-fluid {
+    padding: 0 50px; } }
 @media (min-width: 992px) {
   #contacts {
     padding: 65px 0 60px; }
@@ -405,24 +389,11 @@ h6 {
   margin-top: 20px; }
 
 @media (max-width: 1199px) {
-  .navbar {
-    padding: 20px 0 0.5rem 0; }
-
-  .modal .modal-dialog {
-    margin-top: 108px; }
-
   #company {
     background-size: 100%; }
 
   .activity-blocks {
     font-size: 1rem; } }
-.page-padding {
-  padding: 50px; }
-
-.projects-title {
-  margin-bottom: 80px;
-  margin-top: 70px; }
-
 .next-project {
   margin-top: 60px;
   margin-bottom: 80px; }
@@ -491,14 +462,10 @@ body.home.navOpened .logo-dark {
 
 @media (max-width: 991px) {
   .navbar {
-    padding: 15px 0 0.5rem 0; }
+    padding-top: 15px; }
 
   .main-hero-overlay {
     font-size: 2rem; }
-
-  .projects-title {
-    margin-top: 0px;
-    margin-bottom: 50px; }
 
   h1, h2, .h2 {
     font-size: 24px; }
@@ -514,9 +481,6 @@ body.home.navOpened .logo-dark {
 
   #map {
     height: 320px; }
-
-  .navbar .container-fluid {
-    padding: 0 30px; }
 
   .row .col-xl-4,
   .row .col-xl-8,
@@ -534,9 +498,6 @@ body.home.navOpened .logo-dark {
 
   .prevArrow, .nextArrow {
     top: 30%; }
-
-  .page-padding {
-    padding: 30px; }
 
   .next-project {
     margin-top: 30px;
@@ -557,10 +518,6 @@ body.home.navOpened .logo-dark {
   .enterprise-solutions {
     margin: 30px 0;
     min-height: auto; } }
-.pages-title {
-  margin-bottom: 80px;
-  margin-top: 30px; }
-
 .activity-offer {
   margin-bottom: 60px; }
 
@@ -600,11 +557,7 @@ body.home.navOpened .logo-dark {
     width: calc(100% + 60px); }
 
   .projects .modal-body img {
-    max-width: 100%; }
-
-  .pages-title {
-    margin-bottom: 50px;
-    margin-top: 0px; } }
+    max-width: 100%; } }
 @media (max-width: 575px) {
   #company {
     padding-top: 0;
@@ -652,12 +605,6 @@ body.home.navOpened .logo-dark {
   padding: 1.667rem 1.111rem;
   margin: 0.556rem;
   justify-content: center; }
-
-.review-count {
-  position: absolute;
-  bottom: 1.667rem;
-  font-size: 0.889rem;
-  color: #2065AB; }
 
 .gratitude-card {
   border: 1px solid;
