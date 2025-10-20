@@ -44,7 +44,6 @@ hr {
 /* Navbar */
 .navbar {
   width: 100%;
-  padding: 43px 50px 0.5rem;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease; }
   .navbar.sticky {
@@ -346,11 +345,11 @@ footer {
 
 @media (min-width: 768px) {
   .navbar + section:not(#company) {
-    padding-top: 150px; }
-
-  *:not(#company) > .container-fluid {
-    padding: 0 50px; } }
+    padding-top: 150px; } }
 @media (min-width: 992px) {
+  .container-fluid {
+    padding: 0 50px; }
+
   #contacts {
     padding: 65px 0 60px; }
 
@@ -370,6 +369,17 @@ footer {
 
   .navbar-expand-md .navbar-nav .nav-item:last-child .nav-link {
     margin-right: 0; }
+
+  #company .container-fluid > .row > div:first-child {
+    padding-left: 50px; }
+
+  .navbar {
+    padding: 43px 50px 0.5rem; }
+
+  #company .row,
+  .projects,
+  .color-blocks {
+    margin: 0 -50px; }
 
   .color-blocks.row .col-xl-4, .color-blocks.row .col-xl-8, .color-blocks.row .col-lg-4 {
     padding: 50px 50px; }
