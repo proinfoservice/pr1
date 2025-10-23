@@ -1,0 +1,151 @@
+.main-build {
+  background-image: url('/pr1/img/home1.png');
+  min-height: 300px;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#company {
+  h1 {
+    padding-top: 40px;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 40px;
+  }
+
+  .container-fluid > .row > div:first-child {
+    padding-top: 12vw;
+    padding-bottom: 100px;
+  }
+}
+
+.bg-blue div,
+.bg-light-blue div,
+.bg-dark-blue div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.bg-blue {
+  color: #fff;
+  div {
+    background-color: #2065AB;
+  }
+  .services & svg {
+    fill: #8BBFE9;
+  }
+}
+
+.bg-light-blue {
+  color: #fff;
+  div {
+    background-color: #8BBFE9;
+  }
+  .services & svg {
+    fill: #fff;
+  }
+}
+
+.bg-dark-blue {
+  color: #fff;
+  div {
+    background-color: #1F2147;
+  }
+
+  .services & svg {
+    fill: #2065AB;
+  }
+}
+
+.services {
+  svg {
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+  }
+
+  .col-xl-4 {
+    min-height: 292px;
+  }
+  a:hover {
+    color: #fff;
+  }
+}
+
+.projects > div > a > {
+  img {
+    margin: -20px -50px 20px;
+    width: calc(100% + 100px);
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #company .container-fluid > .row > div:first-child {
+    padding-left: $containerHorizontalPadding;
+  }
+
+  #company .row,
+  .projects,
+  .color-blocks {
+    margin: 0 -50px;
+  }
+  .color-blocks {
+    &.row .col-xl-4,
+    &.row .col-xl-8,
+    &.row .col-lg-4 {
+      padding: 50px 50px;
+    }
+  }
+  #company-page .color-blocks > div {
+    min-height: 337px;
+  }
+
+  .vacancy-items,
+  .projects {
+    &.row .col-xl-4,
+    &.row .col-xl-8,
+    &.row .col-lg-4 {
+      padding: 20px 50px 50px;
+    }
+  }
+  .projects {
+    &.row .modal .col-xl-7,
+    &.row .modal .col-xl-5 {
+      padding: 50px 35px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  #company {
+    background-size: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  #company .container-fluid > .row > div:first-child {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  #company {
+    padding-top: 0;
+    background-image: none;
+    h1 {
+      padding-top: 5px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+// Пример переопределения переменных
+$primary: #2065AB;
+$secondary: #6c757d;
+$body-bg: #fff;
+// $font-size-base: 18px;
+$body-color: #1F2147;
+$dark: #1F2147;
+//
+$h1-font-size: 32px;
+$h2-font-size: 32px;
+$rfs-rem-value: 18;
+// $line-height-base: 1.2;
+//
+
+
+$primaryColor: #2065AB;
+$secondaryColor: #EBF2F8;
+$lightColor: #6A96C2;
+$inActiveBg: #F6FBFF;
+$activeBorder: #175A9E;
+$inActiveBorder: #C6E1FF;
+
+// Button
+$btnBackgroundColor: $primaryColor;
+$btnHoverBackgroundColor: #1F2147;
+$btnActiveBackgroundColor: #1F2147;
+$btnPadding: 10px 15px 12px;
+
+$textColor: #1F2147;
+$lightTextColor: #808080;
+$colorRed: #E43136;
+$navbarTopIndent: 3.125rem;
+$smallFontSize: 15px;
+// $fontSize: 18px;
+$headerHeight: 100px;
+$fontFamily: -apple-system,BlinkMacSystemFont, 'Inter', "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+$tagsTextColor: #fff;
+$tagsBackgroundColor: #8ED8F8;
+
+$inputBackgroundColor: #EEF8FD;
+
+$containerHorizontalPadding: 50px;

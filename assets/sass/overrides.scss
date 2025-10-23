@@ -1,0 +1,128 @@
+/* Navbar */
+
+.navbar {
+  width: 100vw;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+
+  &.sticky {
+    background: #fff;
+    padding-top: 0.5rem;
+  }
+
+  .nav-item {
+    white-space: nowrap;
+  }
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+  color: $body-color;
+  font-size: 16px;
+  position: relative;
+
+  &:hover,
+  &.active {
+    color: $lightTextColor;
+  }
+}
+
+.navbar-collapse {
+  font-size: $smallFontSize;
+}
+
+/* Navbar mobile */
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: $lightTextColor;
+  border-radius: 2px;
+  display: block;
+  height: 3px;
+  width: 25px;
+
+  + .icon-bar {
+    margin-top: 4px;
+  }
+}
+
+.icon-bar,
+.navbar-toggler .icon-bar,
+.navbar-toggler.toggle-clicked .icon-bar {
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+}
+
+.navbar-toggler.toggle-clicked .icon-bar:nth-child(1) {
+  transform: rotate(-43deg);
+  margin-left: -27px !important;
+  min-width: 31px;
+}
+
+.navbar-toggler.toggle-clicked .icon-bar:nth-child(2) {
+  transform: rotate(43deg);
+  margin-left: -27px !important;
+  margin-top: -3px !important;
+  min-width: 31px;
+}
+
+.navbar-toggler.toggle-clicked .icon-bar:nth-child(3) {
+  transform: rotate(37deg);
+  margin-left: -1px !important;
+  width: 21px !important;
+  opacity: 0;
+  margin-top: -2px;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+/* Navbar end*/
+
+/* btn start*/
+.btn {
+  border-radius: 0;
+  padding: $btnPadding;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  // background-color: $btnBackgroundColor;
+  // border-color: $btnBackgroundColor;
+
+  &:hover {
+    background-color: $btnHoverBackgroundColor;
+    border-color: $btnHoverBackgroundColor;
+  }
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled):active {
+    background-color: $btnActiveBackgroundColor;
+    border-color: $btnActiveBackgroundColor;
+  }
+
+  &.focus,
+  &:focus {
+    box-shadow: none;
+  }
+}
+/* btn end*/
+
+.container,
+.navbar .container {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1340px;
+}

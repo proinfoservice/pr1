@@ -1,0 +1,99 @@
+.company-number {
+  font-size: 50px;
+  margin: 0px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.solutions-panel {
+  font-size: 1.556rem;
+  line-height: normal;
+  margin: 100px 0;
+  min-height: 288px;
+}
+
+.solutions-panel-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* tabs start */
+.reviews-tabs .nav-item {
+  padding: 3px;
+}
+
+.reviews-tabs .nav-link {
+  border-radius: 4px;
+  background-color: $inActiveBg;
+  border: 1px solid $inActiveBorder;
+}
+
+.reviews-tabs .nav-link.active {
+  background-color: $primaryColor;
+  border-color: $activeBorder;
+  color: #FFFFFF;
+}
+/* tabs end */
+
+/* slider start*/
+.review-card {
+  padding: 1.667rem 1.111rem;
+  margin: 5px;
+}
+
+.reviews-slider {
+  .slick-next img,
+  .slick-prev img {
+    transform: translateY(-100%);
+  }
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-slide {
+    height: auto;
+  }
+
+  .slick-dots {
+    li {
+      width: auto;
+      margin: 0 2px;
+      button {
+        height: 4px;
+        width: 1.667rem;
+        background-color: $secondaryColor;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+        padding: 0;
+        &::before {
+          content: '';
+        }
+      }
+
+      &.slick-active button {
+        width: 3.333rem;
+        background-color: $lightColor;
+      }
+    }
+  }
+}
+/* slider end*/
+
+@media (max-width: 991px) {
+  .solutions-panel-box {
+    gap: 0.5rem;
+  }
+  .company-numbers {
+    font-size: 40px;
+  }
+  .solutions-panel {
+    font-size: 1rem;
+    margin: 30px 0;
+    min-height: auto;
+  }
+  .reviews-subtitle {
+    min-height: 8em;
+  }
+}
