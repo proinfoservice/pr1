@@ -44,5 +44,6 @@
     document.querySelectorAll('.current-experience').forEach((item) => {
       item.textContent = currentYear - 2009;
     });
+    document.getElementById('current-year').textContent = currentYear;
   });
 })();

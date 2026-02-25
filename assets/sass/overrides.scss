@@ -19,6 +19,19 @@
   margin-left: auto;
 }
 
+@media (min-width: 768px) {
+
+.navbar-home:not(.sticky) .navbar-collapse:not(.opened) .navbar-nav .nav-link,
+
+.navbar-home:not(.sticky) .navbar-brand {
+  color: #fff;
+}
+}
+
+.navbar-brand {
+  color: inherit;
+}
+
 .navbar-nav .nav-link {
   color: $body-color;
   font-size: 16px;

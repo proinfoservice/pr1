@@ -1,24 +1,18 @@
-.main-build {
-  background-image: url('/pr1/img/home1.png');
-  min-height: 300px;
-  background-position: center top;
+.main-bg {
+  background-image: url('/pr1/img/home.png');
+  background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #company {
+  color: #fff;
   h1 {
-    padding-top: 40px;
     margin-bottom: 0.5em;
   }
 
   p {
     margin-bottom: 40px;
-  }
-
-  .container-fluid > .row > div:first-child {
-    padding-top: 12vw;
-    padding-bottom: 100px;
   }
 }
 
@@ -127,23 +121,23 @@
   }
 }
 
-@media (max-width: 1199px) {
-  #company {
-    background-size: 100%;
-  }
-}
+// @media (max-width: 1199px) {
+//   #company {
+//     background-size: 100%;
+//   }
+// }
 
 
 @media (max-width: 767px) {
-  #company .container-fluid > .row > div:first-child {
-    padding-top: 0;
-  }
+  // #company .container-fluid > .row > div:first-child {
+  //   padding-top: 0;
+  // }
 }
 
 @media (max-width: 575px) {
   #company {
-    padding-top: 0;
-    background-image: none;
+    // padding-top: 0;
+    // background-image: none;
     h1 {
       padding-top: 5px;
     }
