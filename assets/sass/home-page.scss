@@ -1,8 +1,21 @@
 .main-bg {
-  background-image: url('/pr1/img/home.png');
   background-position: left top;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url('/pr1/img/home-mobile.png');
+  background-image: image-set(
+    url('/pr1/img/home-mobile.webp') type("image/webp"),
+    url('/pr1/img/home-mobile.png') type("image/png")
+  );
+}
+
+@media (min-width: 768px) {
+  .main-bg {
+    background-image: image-set(
+      url('/pr1/img/home.webp') type("image/webp"),
+      url('/pr1/img/home.png') type("image/png")
+    );
+  }
 }
 
 #company {
